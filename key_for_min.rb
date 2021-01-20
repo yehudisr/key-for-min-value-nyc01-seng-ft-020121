@@ -8,6 +8,6 @@ name_hash.each do |key, value|
   if value < min_value  
   min_value = value
   end
-  
+  key
 end
 end
