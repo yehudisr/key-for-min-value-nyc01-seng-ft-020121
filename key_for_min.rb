@@ -8,7 +8,7 @@ name_hash.each do |key, value|
   key_to_store = nil
   if value < min_value  
   min_value = value
-  
+  key_to_store = key
   end
  key_to_store
 end
